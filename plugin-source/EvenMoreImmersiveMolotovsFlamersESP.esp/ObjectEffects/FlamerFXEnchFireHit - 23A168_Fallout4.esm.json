@@ -1,0 +1,26 @@
+{
+  "FormKey": "23A168:Fallout4.esm",
+  "EditorID": "FlamerFXEnchFireHit",
+  "Flags": [
+    "ExtendDurationOnRecast"
+  ],
+  "CastType": "FireAndForget",
+  "TargetType": "Touch",
+  "EnchantType": "Enchantment",
+  "Effects": [
+    {
+      "BaseEffect": "1E84D3:Fallout4.esm",
+      "Data": {
+        "Magnitude": 10.0,
+        "Duration": 3
+      }
+    },
+    {
+      "BaseEffect": "000800:Immersive_Molotovs_FlamerESP.esp",
+      "Data": {
+        "Magnitude": 50.0,
+        "Duration": 3
+      }
+    }
+  ]
+}

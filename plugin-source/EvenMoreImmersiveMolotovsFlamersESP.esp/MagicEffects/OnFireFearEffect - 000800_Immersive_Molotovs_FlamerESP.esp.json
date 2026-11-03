@@ -1,0 +1,139 @@
+{
+  "FormKey": "000800:Immersive_Molotovs_FlamerESP.esp",
+  "EditorID": "OnFireFearEffect",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Fear Effect Modifier, does not modify damage."
+  },
+  "Flags": [
+    "Hostile",
+    "Recover",
+    "Detrimental",
+    "FXPersist"
+  ],
+  "Archetype": {
+    "MutagenObjectType": "MagicEffectArchetype",
+    "Type": "Demoralize"
+  },
+  "CastType": "FireAndForget",
+  "TargetType": "Touch",
+  "DualCastScale": 1.0,
+  "CastingSoundLevel": "Normal",
+  "Sounds": [],
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": "Fear effect applied to all Non-Legendary, Non-Robot, Non-PowerArmor Enemies."
+  },
+  "Conditions": [
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "CompareOperator": "NotEqualTo",
+      "Unknown1": "0x728ACA",
+      "ComparisonValue": 1.0,
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "HasKeyword",
+        "ParameterOneRecord": "1CF26C:Fallout4.esm",
+        "ParameterOneNumber": 1897068
+      }
+    },
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "Unknown1": "0x728ACA",
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "HasKeyword",
+        "ParameterOneRecord": "0317AA:Fallout4.esm",
+        "ParameterOneNumber": 202666
+      }
+    },
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "Unknown1": "0x728ACA",
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "HasKeyword",
+        "ParameterOneRecord": "0E58C7:Fallout4.esm",
+        "ParameterOneNumber": 940231
+      }
+    },
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "Unknown1": "0x728ACA",
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "HasKeyword",
+        "ParameterOneRecord": "108178:Fallout4.esm",
+        "ParameterOneNumber": 1081720
+      }
+    },
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "Unknown1": "0x728ACA",
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "HasKeyword",
+        "ParameterOneRecord": "06D7B6:Fallout4.esm",
+        "ParameterOneNumber": 448438
+      }
+    },
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "Unknown1": "0x728ACA",
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "HasKeyword",
+        "ParameterOneRecord": "14F6A5:Fallout4.esm",
+        "ParameterOneNumber": 1373861
+      }
+    },
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "CompareOperator": "NotEqualTo",
+      "Unknown1": "0x728ACA",
+      "ComparisonValue": 1.0,
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "HasKeyword",
+        "ParameterOneRecord": "02CB73:Fallout4.esm",
+        "ParameterOneNumber": 183155
+      }
+    },
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "CompareOperator": "NotEqualTo",
+      "Unknown1": "0x728ACA",
+      "ComparisonValue": 1.0,
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "HasPerk",
+        "ParameterOneRecord": "01F8A9:Fallout4.esm",
+        "ParameterOneNumber": 129193
+      }
+    },
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "CompareOperator": "NotEqualTo",
+      "Unknown1": "0x728ACA",
+      "ComparisonValue": 1.0,
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "GetInFaction",
+        "ParameterOneRecord": "083B31:Fallout4.esm",
+        "ParameterOneNumber": 539441
+      }
+    },
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "CompareOperator": "NotEqualTo",
+      "Unknown1": "0x728ACA",
+      "ComparisonValue": 1.0,
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "GetInFaction",
+        "ParameterOneRecord": "077C6C:Fallout4.esm",
+        "ParameterOneNumber": 490604
+      }
+    }
+  ]
+}

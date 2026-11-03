@@ -1,0 +1,7 @@
+*
+!/.gitignore
+!/.gitattributes
+!/build.json
+!/plugin-source/
+!/plugin-source/**
+!/Even\ More\ Immersive\ Burning\ Molotovs\ and\ Flamers.manifest.json
