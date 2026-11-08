@@ -1,6 +1,3 @@
 {
-"version":1,
-"packages":[
-{"kind":"installationFile","name":"Even More Immersive Burning Molotovs and Flamers-62076-1-2-1692033834.7z","packageVersion":"1.2.0.0","size":661,"hash":"oJOt8R0gR58=","host":{"nexus":{"game":"fallout4","mod":62076,"file":286576}}}
-]
+"version":1
 }
